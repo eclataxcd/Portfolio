@@ -29,69 +29,76 @@
 
             <section id="top">
                 <h1>Bienvenue sur mon portfolio</h1>
-                <p>Je suis Clara Drieux, étudiante en deuxième année de BUT informatique à l'IUT Gustave Eiffel.</p>
-                <img src="" alt="photo_pro">
+                <div id="boite_presentation">
+                    <p>Je suis Clara Drieux, étudiante en deuxième année de BUT informatique à l'IUT Gustave Eiffel.</p>
+                    <img src="" alt="photo_pro">
+                </div>
             </section>
 
             <section id="projets">
                 <h2>Mes projets</h2>
-                <input type="checkbox" id="python" hidden>
-                <label for="python">Python</label>
 
-                <input type="checkbox" id="java" hidden>
-                <label for="java">Java</label>
+                <div id="sous_boite_projets">
+                    <input type="checkbox" id="python" hidden>
+                    <label for="python" class="button_projet">Python</label>
 
-                <input type="checkbox" id="php" hidden>
-                <label for="php">PHP</label>
+                    <input type="checkbox" id="java" hidden>
+                    <label for="java" class="button_projet">Java</label>
 
-                <input type="checkbox" id="web" hidden>
-                <label for="web">Web</label>
+                    <input type="checkbox" id="php" hidden>
+                    <label for="php" class="button_projet">PHP</label>
 
-                <input type="checkbox" id="appli" hidden>
-                <label for="appli">Appli</label>
+                    <input type="checkbox" id="web" hidden>
+                    <label for="web" class="button_projet">Web</label>
 
-                <input type="checkbox" id="univ" hidden>
-                <label for="univ">Univ</label>
+                    <input type="checkbox" id="appli" hidden>
+                    <label for="appli" class="button_projet">Appli</label>
 
-                <input type="checkbox" id="perso" hidden>
-                <label for="perso">Perso</label>
+                    <input type="checkbox" id="univ" hidden>
+                    <label for="univ" class="button_projet">Univ</label>
 
-                <div id="dispo_projets">
-                    <div class="carte">
-                        <h3>Tetris</h3>
-                        <img src="" alt="">
-                        <p>fgrth ghr ghtzy tjryr etjy jyktu</p>
+                    <input type="checkbox" id="perso" hidden>
+                    <label for="perso" class="button_projet">Perso</label>              
+
+                    <div id="dispo_projets">
+                        <div class="carte python univ">
+                            <h3>Tetris</h3>
+                            <img src="" alt="">
+                            <p>fgrth ghr ghtzy tjryr etjy jyktu</p>
+                        </div>
+
+                        <div class="carte java appli univ">
+                            <h3>Yams</h3>
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+
+                        <div class="carte web php univ">
+                            <h3>Kyoto</h3>
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+
+                        <div class="carte web php univ">
+                            <h3>Langues et cultures</h3>
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+
+                        <div class="carte java appli univ">
+                            <h3>Drawzza</h3>
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+
+                        <div class="carte web php univ">
+                            <h3>Tintage</h3>
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
                     </div>
-
-                    <div class="carte">
-                        <h3></h3>
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
-
-                    <div class="carte">
-                        <h3></h3>
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
-
-                    <div class="carte">
-                        <h3></h3>
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
-
-                    <div class="carte">
-                        <h3></h3>
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
-
-                    <div class="carte">
-                        <h3></h3>
-                        <img src="" alt="">
-                        <p></p>
-                    </div>
+                
+                
                 </div>    
 
             </section>
@@ -100,23 +107,23 @@
                 <h2>Mes compétences</h2>
 
                 <div id=dispo_competences>
-                    <div>
-                        <h3></h3>
+                    <div class="bloc_competences" id="hautGauche">
+                        <h3>k</h3>
                         <p></p>
                     </div>
 
-                    <div>
-                        <h3></h3>
+                    <div class="bloc_competences" id="hautDroit">
+                        <h3>j</h3>
                         <p></p>
                     </div>
 
-                    <div>
-                        <h3></h3>
+                    <div class="bloc_competences" id="basGauche">
+                        <h3>n</h3>
                         <p></p>
                     </div>
 
-                    <div>
-                        <h3></h3>
+                    <div class="bloc_competences" id="basDroit">
+                        <h3>q</h3>
                         <p></p>
                     </div>
                 </div>
@@ -130,19 +137,19 @@
 
             <section id="contact">
                 <h2>Me contacter</h2>
-                <div class="boite-formulaire">
-                    <form action="https://formspree.io/f/mblovovy" method="POST">
-                        
-                        <label for="email"> Email: </label>
-                        <input type="email" id="email">
-                        <br><br>
-                        <label for="email"> Message: </label>
-                        <textarea name="message"></textarea>
-                        <br><br>
-                        <button type="submit" class="submit-btn">Envoyer</button>
+                
+                <form action="https://formspree.io/f/mblovovy" method="POST">
+                    
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email">
+                    <br><br>
+                    <label for="email"> Message: </label>
+                    <textarea name="message"></textarea>
+                    <br><br>
+                    <button type="submit" class="submit_button">Envoyer</button>
 
-                    </form>
-                </div>
+                </form>
+                
             </section>
 
         </main>

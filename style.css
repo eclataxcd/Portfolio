@@ -12,7 +12,6 @@ body {
   font-style: normal;
 }
 
-
 /* Header */
 header {
     background: linear-gradient(#D8BAE9 0%, #B482CF 100%);
@@ -69,47 +68,34 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-#dispo_projets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-input[type="checkbox"]:checked + .button_projet {
-    background-color: #BE90D6;
-}
-
 .button_projet {
-    background-color: #E9C5FC;
-    margin : 0 15px 30px 15px;
-    padding: 10px;
-    width: 100px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
+    margin: 40px 50px;
 }
 
-
-#python:checked ~ #dispo_projets .carte:not(.python),
-#java:checked ~ #dispo_projets .carte:not(.java),
-#php:checked ~ #dispo_projets .carte:not(.php),
-#web:checked ~ #dispo_projets .carte:not(.web),
-#appli:checked ~ #dispo_projets .carte:not(.appli),
-#univ:checked ~ #dispo_projets .carte:not(.univ),
-#perso:checked ~ #dispo_projets .carte:not(.perso) {
-    display: none;
+.button_projet img {
+    width: 200px;
 }
 
+#python:checked ~.python,
+#java:checked ~.java,
+#php:checked ~.php,
+#web:checked ~.web,
+#appli:checked ~.appli,
+#univ:checked ~.univ,
+#perso:checked ~.perso {
+    display: block;
+}
 
 .carte {
+    text-align: center;
     background-color: #E9C5FC;
     height: 400px;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
+    margin: 20px;
 }
 
 

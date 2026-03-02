@@ -76,6 +76,16 @@ nav ul li a:hover {
     width: 200px;
 }
 
+#python:checked ~.python,
+#java:checked ~.java,
+#php:checked ~.php,
+#web:checked ~.web,
+#appli:checked ~.appli,
+#univ:checked ~.univ,
+#perso:checked ~.perso {
+    display: block;
+}
+
 .carte {
     text-align: center;
     background-color: #E9C5FC;
@@ -84,6 +94,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
     margin: 20px;
 }
 
@@ -162,7 +173,6 @@ nav ul li a:hover {
 #boite_presentation > img {
     width: 250px;
     background-color: #570b81;
-    border-radius: 5px;
 }
 
 #boite_presentation > p {
@@ -179,10 +189,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 30px;
-    background-color: #E9C5FC;
-    box-shadow: 0 0px 30px rgb(214, 140, 253);
 }
 
 

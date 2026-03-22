@@ -1,148 +1,221 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
-        <title>Portfolio Clara Drieux</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
+    <title>Portfolio Clara Drieux</title>
+</head>
 
-        <header>
+<body>
 
-            <nav>
-                <ul class="lobster-regular">
-                    <li><a href="#top">Clara Drieux</a></li>
-                    <li><a href="#projets">Mes projets</a></li>
-                    <li><a href="#connaissances">Mes connaissances</a></li>
-                    <li><a href="#apropos">À propos</a></li>
-                    <li><a href="#contact">Me contacter</a></li>
-                </ul>
-            </nav>
+    <header>
 
-        </header>
-        <main>
+        <nav>
+            <ul class="lobster-regular">
+                <li><a href="#top">Clara Drieux</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a href="#connaissances">Mes connaissances</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
 
-            <section id="top">
-                <h1>Bienvenue sur mon portfolio</h1>
-                <div id="boite_presentation">
-                    <p>Je suis Clara Drieux, étudiante en deuxième année de BUT informatique à l'IUT Gustave Eiffel.</p>
-                    <img src="img/photo_pro.jpeg" alt="photo_pro">
-                </div>
-            </section>
+    </header>
+    <main>
 
-            <section id="projets">
-                <h2>Mes projets</h2>
+        <section id="top">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <div id="boite_presentation">
+                <p>Je suis Clara Drieux, étudiante en deuxième année de BUT informatique à l'IUT Gustave Eiffel.</p>
+                <img src="img/photo_pro.jpeg" alt="photo_pro">
+            </div>
+        </section>
 
-                <div id="sous_boite_projets">
-                    
-                    <div class="carte">
-                        <h3>Tetris</h3>
-                        <img src="" alt="">
-                        <p>fgrth ghr ghtzy tjryr etjy jyktu</p>
-                    </div>
-                    
-                </div>
+        <section id="projets">
+            <h2>Mes projets</h2>
 
-            </section>
+            <div id="sous_boite_projets">
 
-            <section id="connaissances">
-                <h2>Mes connaissances</h2>
-
-                <div id=dispo_connaissances>
-                    <div class="bloc_connaissances" id="hautGauche">
-                        <h3>Langages de programmations</h3>
+                <div class="carte">
+                    <h3>SAE Tableau Lego</h3>
+                    <img src="img/sae.jpg" alt="page d'accueil du site de la sae Tableau Lega">
+                    <p>
+                        Création d'un site en HTML/CSS/JS/PHP transformant une image en tableau de briques en passant
+                        par un algorithme de pavage en C. <br>
+                        Gestion des données avec MySQL et MongoDB. Relations des parties en Java. Deux jeux créer en
+                        React/TypeScript pour gagner des points de réductions.
+                    </p>
+                    <details>
+                        <summary><strong>Compétences utilisées</strong></summary>
                         <p>
-                            - <strong>Web</strong> : HTML / CSS (BootStrap) / JS (TypeScript / REACT / Node) / PHP <br>
-                            - <strong>Logiciels</strong> : Python / Java / C <br>
-                            - <strong>Base de données</strong> : SQL / PostgreSQL / NoSQL <br>
+                            Réaliser (Partir des exigences et aller jusqu'à une application complète) <br>
+                            Optimiser (Sélectionner les algorithmes adéquats pour répondre à un problème donné) <br>
+                            Gérer (Optimiser une base de données, intéragir avec une application et mettre en oeuvre la
+                            sécurité) <br>
+                            Conduire (Appliquer une démarche de suivi de projet en fonction des besoins métiers des
+                            clients
+                            et des utilisateurs)
                         </p>
-                    </div>
+                    </details>
 
-                    <div class="bloc_connaissances" id="hautDroit">
-                        <h3>Logiciels de programmations</h3>
-                        <p>
-                            - <strong>Web</strong> : VS Code / PhpStorm / XAMPP <br>
-                            - <strong>Logiciels</strong> : VS Code / Eclipse / IntelliJ IDEA <br>
-                            - <strong>Base de données</strong> : MySQL / pgAdmin / MongoDB <br>
-                        </p>
-                    </div>
-
-                    <div class="bloc_connaissances" id="basGauche">
-                        <h3>Logiciels annexes</h3>
-                        <p>
-                            - <strong>Maquettage</strong> : Figma / Scene Builder <br>
-                            - <strong>Documentation</strong> : Google drive <br>
-                            - <strong>Versionnage</strong> : Git / GitHub <br>
-                            - <strong>Organisation</strong> : Trello / Jira / GanttProject <br>
-                        </p>
-                    </div>
-
-                    <div class="bloc_connaissances" id="basDroit">
-                        <h3>Autres connaissances</h3>
-                        <p>
-                            - <strong>Méthodes de travail</strong> : Agile / Scrum / Kanban / Cycle en V <br>
-                            - <strong>Langues</strong> : anglais (B2) / Allemand (B1) <br>
-                            - <strong>Soft skills</strong> : travail en équipe / autonomie / organisation / créativité / patience / soucieuse du détail <br>
-                        </p>
-                    </div>
                 </div>
 
-                
-            </section>
+                <div class="carte">
+                    <h3>Projet TranPay</h3>
+                    <video class="video" src="img/demo-tranpay.mp4" controls></video>
+                    <details>
+                        <summary><strong>Compétences utilisées</strong></summary>
+                        <p>
+                            Réaliser (Partir des exigences et aller jusqu'à une application complète) <br>
+                            Gérer (Optimiser une base de données, intéragir avec une application et mettre en oeuvre la
+                            sécurité) <br>
+                            Conduire (Appliquer une démarche de suivi de projet en fonction des besoins métiers des
+                            clients et des utilisateurs)
+                        </p>
+                    </details>
 
-            <section id="apropos">
-                <h2>À propos</h2>
-                <p>
-                    Mon portfolio me sert à évaluer mes connaissances et tenir un dossier permanents 
-                    de mes compétences et de mes projets. <br><br>
-                    Cela fait maintenant deux ans que je suis dans le domaine de l'informatique,
-                    et j'ai pu acquérir de nombreuses compétences et connaissances grâce à mes projets 
-                    universitaires. <br> 
-                    Après mon BUT, je souhaiterais poursuivre mes études dans le domaine du jeux vidéo. <br>
-                    Je voudrais me diriger dans ce domaine car je veux continuer l'informatique mais en y ajoutant 
-                    plus de créativité, et je suis passionnée de jeux vidéo depuis que je suis petite. <br>
-                     
-                    <br><br>
-                    <button>
-                        <a href="">Mon GitHub</a>
-                    </button>
-                    <button>
-                        <a href="https://www.linkedin.com/in/clara-drieux-98b170338" target="_blank">Mon LinkedIn</a>
-                    </button>
-                    <button>
-                        <a href="cv.pdf">Mon CV</a>
-                    </button>
-                    <button>
-                        <a href="noteBUT.pdf">Mes notes du BUT</a>
-                    </button>
-                    
-                </p>
-            </section>
+                </div>
 
-            <section id="contact">
-                <h2>Me contacter</h2>
-                
-                <form action="https://formspree.io/f/mblovovy" method="POST">
-                    
-                    <label for="email"> Email: </label>
-                    <input type="email" id="email">
-                    <br><br>
-                    <label for="email"> Message: </label>
-                    <textarea name="message"></textarea>
-                    <br><br>
-                    <button type="submit" class="submit_button">Envoyer</button>
+                <div class="carte">
+                    <h3>Projet TranWay</h3>
+                    <img src="img/tranway.jpg" alt="page d'accueil du site de la sae Tableau Lega">
+                    <details>
+                        <summary><strong>Compétences utilisées</strong></summary>
+                        <p>
+                            Réaliser (Partir des exigences et aller jusqu'à une application complète) <br>
+                            Gérer (Optimiser une base de données, intéragir avec une application et mettre en oeuvre la
+                            sécurité) <br>
+                            Conduire (Appliquer une démarche de suivi de projet en fonction des besoins métiers des
+                            clients
+                            et des utilisateurs)
+                        </p>
+                    </details>
 
-                </form>
-                
-            </section>
+                </div>
 
-        </main>
+                <div class="carte">
+                    <h3>TP Set Lego</h3>
+                    <img src="img/sae.jpg" alt="page d'accueil du site de la sae Tableau Lega">
+                    <details>
+                        <summary><strong>Compétences utilisées</strong></summary>
+                        <p>
+                            Réaliser (Partir des exigences et aller jusqu'à une application complète) <br>
+                            Optimiser (Sélectionner les algorithmes adéquats pour répondre à un problème donné) <br>
+                            Gérer (Optimiser une base de données, intéragir avec une application et mettre en oeuvre la
+                            sécurité) <br>
+                            Conduire (Appliquer une démarche de suivi de projet en fonction des besoins métiers des
+                            clients
+                            et des utilisateurs)
+                        </p>
+                    </details>
 
-    </body>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <section id="connaissances">
+            <h2>Mes connaissances</h2>
+
+            <div id=dispo_connaissances>
+                <div class="bloc_connaissances" id="hautGauche">
+                    <h3>Langages de programmations</h3>
+                    <p>
+                        - <strong>Web</strong> : HTML / CSS (BootStrap) / JS (TypeScript / REACT / Node) / PHP <br>
+                        - <strong>Logiciels</strong> : Python / Java / C <br>
+                        - <strong>Base de données</strong> : SQL / PostgreSQL / NoSQL <br>
+                    </p>
+                </div>
+
+                <div class="bloc_connaissances" id="hautDroit">
+                    <h3>Logiciels de programmations</h3>
+                    <p>
+                        - <strong>Web</strong> : VS Code / PhpStorm / XAMPP <br>
+                        - <strong>Logiciels</strong> : VS Code / Eclipse / IntelliJ IDEA <br>
+                        - <strong>Base de données</strong> : MySQL / pgAdmin / MongoDB <br>
+                    </p>
+                </div>
+
+                <div class="bloc_connaissances" id="basGauche">
+                    <h3>Logiciels annexes</h3>
+                    <p>
+                        - <strong>Maquettage</strong> : Figma / Scene Builder <br>
+                        - <strong>Documentation</strong> : Google drive <br>
+                        - <strong>Versionnage</strong> : Git / GitHub <br>
+                        - <strong>Organisation</strong> : Trello / Jira / GanttProject <br>
+                    </p>
+                </div>
+
+                <div class="bloc_connaissances" id="basDroit">
+                    <h3>Autres connaissances</h3>
+                    <p>
+                        - <strong>Méthodes de travail</strong> : Agile / Scrum / Kanban / Cycle en V <br>
+                        - <strong>Langues</strong> : anglais (B2) / Allemand (B1) <br>
+                        - <strong>Soft skills</strong> : travail en équipe / autonomie / organisation / créativité /
+                        patience / soucieuse du détail <br>
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="apropos">
+            <h2>À propos</h2>
+            <p>
+                Mon portfolio me sert à évaluer mes connaissances et tenir un dossier permanents
+                de mes compétences et de mes projets. <br><br>
+                Cela fait maintenant deux ans que je suis dans le domaine de l'informatique,
+                et j'ai pu acquérir de nombreuses compétences et connaissances grâce à mes projets
+                universitaires. <br>
+                Après mon BUT, je souhaiterais poursuivre mes études dans le domaine du jeux vidéo. <br>
+                Je voudrais me diriger dans ce domaine car je veux continuer l'informatique mais en y ajoutant
+                plus de créativité, et je suis passionnée de jeux vidéo depuis que je suis petite. <br>
+
+                <br><br>
+                <button>
+                    <a href="">Mon GitHub</a>
+                </button>
+                <button>
+                    <a href="https://www.linkedin.com/in/clara-drieux-98b170338" target="_blank">Mon LinkedIn</a>
+                </button>
+                <button>
+                    <a href="cv.pdf">Mon CV</a>
+                </button>
+                <button>
+                    <a href="noteBUT.pdf">Mes notes du BUT</a>
+                </button>
+
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Me contacter</h2>
+
+            <form action="https://formspree.io/f/mblovovy" method="POST">
+
+                <label for="email"> Email: </label>
+                <input type="email" id="email">
+                <br><br>
+                <label for="email"> Message: </label>
+                <textarea name="message"></textarea>
+                <br><br>
+                <button type="submit" class="submit_button">Envoyer</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
 
 </html>

@@ -43,7 +43,7 @@
             <div id="sous_boite_projets">
 
                 <div class="carte">
-                    <h3>SAE Tableau Lego</h3>
+                    <h3 id="sae">SAE Tableau Lego</h3>
                     <img src="img/sae.jpg" alt="page d'accueil du site de la sae Tableau Lega">
                     <p>
                         Création d'un site en HTML/CSS/JS/PHP transformant une image en tableau de briques en passant
@@ -54,17 +54,20 @@
                     <details>
                         <summary><strong>Compétences utilisées</strong></summary>
                         <p>
-                            <strong>Réaliser</strong> (Partir des exigences et aller jusqu'à une application complète)
-                            <br>
-                            <strong>Optimiser</strong> (Sélectionner les algorithmes adéquats pour répondre à un
-                            problème donné) <br>
-                            <strong>Gérer</strong> (Optimiser une base de données, intéragir avec une application et
-                            mettre en oeuvre la
-                            sécurité) <br>
-                            <strong>Conduire</strong> (Appliquer une démarche de suivi de projet en fonction des besoins
-                            métiers des clients et des utilisateurs) <br>
-                            <strong>Collaborer</strong> (Situer son rôle et ses missions au sein d'une équipe
-                            informatique)
+                            <strong>Réaliser</strong> : construction d'une architecture client-serveur complète.
+                            Intégration de modules interactifs au sein d'une infrastructure existante répondant à un
+                            besoin métier
+                            <br> <br>
+                            <strong>Optimiser</strong> : le C permet un traitement d'image rapide et une gestion de la
+                            mémoire optimisée.
+                            <br> <br>
+                            <strong>Gérer</strong> : Utilisation de bases de données différentes pour divers fonctions.
+                            Orchestrer des flux de données entre des environnements différents avec java.
+                            <br> <br>
+                            <strong>Conduire</strong> : L'ajout des jeux en React pour gagner des points de réduction
+                            est un moyen d'ajouter les enjeux marketing.
+                            <br> <br>
+                            <strong>Collaborer</strong> : Des rôles ont été assignés pour ce projet. J'étais co-chef.
                         </p>
                     </details>
 
@@ -75,7 +78,7 @@
                     <video class="video" src="img/demo-tranpay.mp4" controls></video>
                     <p>
                         Création d'un site en HTML/CSS/PHP pour la gestion d'une banque pour une entreprise. <br>
-                        Gestion des données avec PostgreSQL et relation avec le site via une api.
+                        Gestion des données avec PostgreSQL et relation avec le site via une API.
                     </p>
                     <details>
                         <summary><strong>Compétences utilisées</strong></summary>
@@ -96,7 +99,10 @@
 
                 <div class="carte">
                     <h3>Projet TranWay</h3>
-                    <img src="img/tranway.jpg" alt="page d'accueil du site de la sae Tableau Lega">
+                    <video class="video" src="img/video-tranway.mp4" controls></video>
+                    <p>
+
+                    </p>
                     <details>
                         <summary><strong>Compétences utilisées</strong></summary>
                         <p>
@@ -117,6 +123,9 @@
                 <div class="carte">
                     <h3>TP Set Lego</h3>
                     <img src="img/sae.jpg" alt="page d'accueil du site de la sae Tableau Lega">
+                    <p>
+                        
+                    </p>
                     <details>
                         <summary><strong>Compétences utilisées</strong></summary>
                         <p>
@@ -142,26 +151,78 @@
         <section id="competences">
             <h2>Mes compétences</h2>
             <div class="bloc_competences">
-                <div class="competence">
+
+                <a href="#realiser" id="realiserButton" class="competence">
                     <strong>Réaliser</strong> (Partir des exigences et aller jusqu'à une application complète)
+                </a>
+                <div id="realiser" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <h1>Réaliser : Projet TranWay</h1>
+                    <p>
+                        Pour cette compétence, je vais prendre le projet TranWay comme exemple. Lors de ce projet, on
+                        nous a fournis un product backlog uniquement. Il fallait donc réaliser le site en nous reposant
+                        uniquement sur ce document mais aussi sur le prof qui était notre MOA. Ce projet c'est déroulé
+                        sur 3 mois.
+                    </p>
                 </div>
-                <div class="competence">
+
+
+                <a href="#optimiser" id="optimiserButton" class="competence">
                     <strong>Optimiser</strong> (Sélectionner les algorithmes adéquats pour répondre à un
                     problème donné)
+                </a>
+                <div id="optimiser" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <h1>Optimiser : <a href="#sae">SAE Tableau Lego</a></h1>
+                    <p>
+                        Pour cette compétence, je vais prendre exemmple de ma SAE Tableau Lego. 
+                    </p>
                 </div>
-                <div class="competence">
+
+
+                <a href="#administrer" id="administrerButton" class="competence">
                     <strong>Administrer</strong> (Déployer des services dans une architecture réseau)
+                </a>
+                <div id="administrer" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <p>
+                        gefgsf
+                    </p>
                 </div>
-                <div class="competence">
+
+
+                <a href="#gerer" id="gererButton" class="competence">
                     <strong>Gérer</strong> (Optimiser une base de données, intéragir avec une application et
                     mettre en oeuvre la sécurité)
+                </a>
+                <div id="gerer" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <p>
+                        gefgsf
+                    </p>
                 </div>
-                <div class="competence">
+
+
+                <a href="#conduire" id="conduireButton" class="competence">
                     <strong>Conduire</strong> (Appliquer une démarche de suivi de projet en fonction des besoins
                     métiers des clients et des utilisateurs)
+                </a>
+                <div id="conduire" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <p>
+                        gefgsf
+                    </p>
                 </div>
-                <div class="competence">
+
+
+                <a href="#collaborer" id="collaborerButton" class="competence">
                     <strong>Collaborer</strong> (Situer son rôle et ses missions au sein d'une équipe informatique)
+                </a>
+                <div id="collaborer" class="popup">
+                    <a href="#competences" class="closeButton">X</a>
+                    <p>
+                        gefgsf
+                    </p>
                 </div>
 
             </div>

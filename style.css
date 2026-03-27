@@ -215,6 +215,19 @@ summary {
     border-radius: 10px;
 }
 
+.popup > h1 > a {
+    color :#c478ec;
+}
+
+.popup > h1 > a:visited {
+    color: #6b169a;
+}
+
+.popup > p {
+    font-size: large;
+    padding: 5%;
+}
+
 .closeButton {
     align-self: flex-end;
     color: black;
@@ -261,38 +274,18 @@ summary {
 
 #hautGauche {
     border-radius: 15px 15px 0 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#hautGauche:hover {
-    transform: scale(1.05, 1.05);
 }
 
 #hautDroit {
     border-radius: 15px 15px 15px 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#hautDroit:hover {
-    transform: scale(1.05, 1.05);
 }
 
 #basGauche {
     border-radius: 15px 0 15px 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#basGauche:hover {
-    transform: scale(1.05, 1.05);
 }
 
 #basDroit {
     border-radius: 0 15px 15px 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#basDroit:hover {
-    transform: scale(1.05, 1.05);
 }
 
 
